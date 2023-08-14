@@ -46,10 +46,10 @@ public class GilletteTests {
 
         // Create ChromeDriver instance
         // driver = new ChromeDriver();
-        driver = base.openBrowser();
+        // driver = base.openBrowser();
         
-        driver.manage().window().maximize();
-        reporter = Reporter.generateExtentReport();
+        // driver.manage().window().maximize();
+        // reporter = Reporter.generateExtentReport();
     }
     
     @Given("^user on the user registration page$")
